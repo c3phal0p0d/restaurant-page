@@ -61,7 +61,7 @@ function loadHomePage(){
     noticeHeading.appendChild(document.createTextNode('Notice'))
     noticeContainer.appendChild(noticeHeading);
     const noticeImage = document.createElement('img');
-    noticeImage.src = '/src/bob.webp';
+    noticeImage.src = './images/bob.webp';
     noticeContainer.appendChild(noticeImage);
 }
 
@@ -85,7 +85,7 @@ function loadMenuPage() {
     menuItem1.classList.add('menu-item');
     menuContainer.appendChild(menuItem1);
     let image = document.createElement('img');
-    image.src = '/src/coffee.jpg';
+    image.src = './images/coffee.jpg';
     menuItem1.append(image);
     let itemName = document.createElement('h3');
     itemName.textContent = 'Coffee';
@@ -102,7 +102,7 @@ function loadMenuPage() {
     menuItem2.classList.add('menu-item');
     menuContainer.appendChild(menuItem2);
     image = document.createElement('img');
-    image.src = '/src/cherry-pie.jpg';
+    image.src = './images/cherry-pie.jpg';
     menuItem2.append(image);
     itemName = document.createElement('h3');
     itemName.textContent = 'Cherry pie';
@@ -119,7 +119,7 @@ function loadMenuPage() {
     menuItem3.classList.add('menu-item');
     menuContainer.appendChild(menuItem3);
     image = document.createElement('img');
-    image.src = '/src/donuts.jpeg';
+    image.src = './images/donuts.jpeg';
     menuItem3.append(image);
     itemName = document.createElement('h3');
     itemName.textContent = 'Donuts';
@@ -165,7 +165,7 @@ function loadContactPage() {
     locationText.textContent = 'We are located at 123 Main St, Twin Peaks, Washington, United States.';
     locationContainer.appendChild(locationText);
     const map = document.createElement('img');
-    map.src = '/src/map.jpg';
+    map.src = './images/map.jpg';
     locationContainer.appendChild(map);
 }
 
